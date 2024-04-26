@@ -1,0 +1,45 @@
+.navbar{
+    list-style: none;
+    display: flex;
+    font-size: x-large;
+    gap: 300px;
+    white-space: nowrap;
+}
+
+#landingpage{
+    display: flex;
+    gap: 200px;
+    width: 100%;
+    white-space: nowrap;
+}
+#header{
+   text-align: center;
+   font-size: x-large;
+}
+
+#goal{
+  border: 2px solid; 
+  width: 100%;
+ align-self:normal;
+ text-align: center;
+ font-size: xx-large;
+ color: red;
+ border-radius: 20%;
+ 
+}
+
+
+
+.footer{
+    display: flex;
+    width: 50%;
+    gap: 650px;
+    white-space: nowrap;
+    font-size: larger;
+    margin-top: 5%;
+    background-color:#22E6D4;
+    padding-right: 40%;
+    padding-left: 10%;
+    padding-top: 1%;
+
+}

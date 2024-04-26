@@ -1,0 +1,42 @@
+.navbar{
+    list-style: none;
+    display: flex;
+    font-size: x-large;
+    gap: 300px;
+    white-space: nowrap;
+}
+.landingpage{
+    list-style: none;
+    display: flex;
+    width: 70%;
+    border-radius: 30%;
+    gap: 10px;
+    
+
+}
+.details{
+white-space: nowrap;
+font-size: 70px;
+padding-top: 20%;
+}
+
+#heading{
+    margin-left: 40%;
+    margin-bottom: 4%;
+    font-size: xx-large;
+}
+
+
+.footer{
+    display: flex;
+    width: 50%;
+    gap: 650px;
+    white-space: nowrap;
+    font-size: larger;
+    margin-top: 5%;
+    background-color:#22E6D4;
+    padding-right: 40%;
+    padding-left: 10%;
+    padding-top: 1%;
+
+}

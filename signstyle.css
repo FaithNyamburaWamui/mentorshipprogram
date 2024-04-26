@@ -1,0 +1,74 @@
+.navbar{
+    list-style: none;
+    display: flex;
+    font-size: x-large;
+    gap: 300px;
+    white-space: nowrap;
+}
+#user{
+   background-color: #E69A22;
+    padding-right: 45%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: x-large;
+    white-space: nowrap;
+    margin-top: 4%;
+
+}
+#achievements{
+    background-color: #E69A22;
+    padding-right: 45%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: x-large;
+    white-space: nowrap;
+    margin-top: 4%;
+
+}
+#password{
+    background-color: #E69A22;
+    padding-right: 45%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: x-large;
+    white-space: nowrap;
+    margin-top: 4%;
+}
+#gmail{
+    background-color: #E69A22;
+    padding-right: 45%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: x-large;
+    white-space: nowrap;
+    margin-top: 4%;
+}  
+
+.buttons{
+    margin-left: 27%;
+    
+}
+#signin{
+    background-color:#2AE526 ;
+    padding-right: 6%;
+    padding-left: 8%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: x-large;
+    white-space: nowrap;
+    margin-top: 5%; 
+   margin-left:100px ;
+}
+.footer{
+    display: flex;
+    width: 50%;
+    gap: 650px;
+    white-space: nowrap;
+    font-size: larger;
+    margin-top: 5%;
+    background-color:#22E6D4;
+    padding-right: 40%;
+    padding-left: 10%;
+    padding-top: 1%;
+
+}

@@ -1,0 +1,48 @@
+.landingpage{
+    display: flex;
+    gap: 100px;
+    font-size:400%
+}
+#image{
+    width: 40%;
+    height: 30%;
+}
+.footer{
+    display: flex;
+    width: 50%;
+    gap: 650px;
+    white-space: nowrap;
+    font-size: larger;
+    margin-top: 5%;
+    background-color:skyblue;
+    padding-right: 40%;
+    padding-left: 10%;
+    padding-top: 1%;
+}
+#linkedin{
+    display: flex;
+  
+}
+#button{
+   background-color:#2AE526;
+   padding-right: 3%;
+   padding-left: 3%;
+   border-radius: 20%;
+   margin-left: 33%;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   margin-bottom: 1%;
+   font-size: x-large;
+}
+#login{
+    background-color:#22E6D4;
+   padding-right: 3%;
+   padding-left: 3%;
+   border-radius: 20%;
+   margin-left: 40%;
+   padding-top: 1%;
+   padding-bottom: 1%;
+   font-size: larger;
+}
+
+@media screen and (min-width:414px) and (max-width:800){}
