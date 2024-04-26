@@ -2,7 +2,7 @@
     list-style: none;
     display: flex;
     font-size: x-large;
-    gap: 300px;
+    gap: 150px;
     white-space: nowrap;
 }
 .landingpage{
@@ -11,6 +11,10 @@
     white-space: nowrap;
     gap: 500px;
     
+}
+#logo{
+    width:250px ;
+    height: 150px;
 }
 #landingpage{
     width: 50%;
@@ -23,13 +27,27 @@
     padding-bottom: 120%;
    
 }
+.landing{
+    width: 50%;
+    border:4px solid;
+    padding-right: 60%;
+    border-radius: 4%;
+    display: flex;
+    margin-left: 50%;
+    font-size: x-large;
+    padding-bottom: 120%;
+}
+.heading{
+    width: 60px; 
+    height: 60px;
+    padding-top: 2%;
+}
 #heading{
     display: flex;
-    width: 60px;
     font-size: larger;
     gap: 10px;
     white-space: nowrap;
-    padding-left: 600px;
+    padding-left: 800px;
     text-align: center;
 }
 

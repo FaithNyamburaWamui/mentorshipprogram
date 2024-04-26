@@ -2,8 +2,12 @@
     list-style: none;
     display: flex;
     font-size: x-large;
-    gap: 300px;
+    gap: 150px;
     white-space: nowrap;
+}
+#logo{
+    width:250px ;
+    height: 150px;
 }
 #heading{
     font-size: x-large;
