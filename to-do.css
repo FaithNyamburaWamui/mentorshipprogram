@@ -82,7 +82,7 @@
         list-style: none;
         flex-wrap: wrap;
         font-size: large;
-        gap: 80px;
+        gap: 6px;
         white-space: nowrap;
     }
     .navbar a{
@@ -94,7 +94,7 @@
         width: 50%;
        flex-wrap: wrap;
         white-space: nowrap;
-        gap: 40px;
+        gap: 30px;
         
     }
     
@@ -103,20 +103,20 @@
         height: 100px;
     }
     #landingpage{
-        width: 50%;
+        width: 60%;
         border:3px solid;
         padding-right: 60%;
         margin-left: 60%;
-        font-size: medium;
+        font-size: small;
         padding-bottom: 35%;
        
     }
     .landing{
         width: 50%;
         border:4px solid;
-        padding-right: 60%;
+        padding-right: 100%;
         border-radius: 4%;
-        display: flex;
+       flex-wrap: wrap;
         margin-left: 50%;
         font-size:medium;
         padding-bottom: 90%;
@@ -195,9 +195,9 @@
     .landing{
         width: 50%;
         border:4px solid;
-        padding-right: 60%;
+        padding-right: 90%;
         border-radius: 4%;
-        display: flex;
+       flex-wrap: wrap;
         margin-left: 50%;
         font-size:medium;
         padding-bottom: 90%;
