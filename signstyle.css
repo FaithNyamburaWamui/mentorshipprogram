@@ -108,45 +108,40 @@ body{
         display: inline-flex;
     }
     #user{
-        padding-right: 9%;
-        padding-top: 3%;
+        padding-right: 4%;
+        padding-top: 2%;
         padding-bottom: 1%;
         font-size: medium;
         white-space: wrap;
-        margin-top: 3%;
+        margin-top: 7%;
         
     
     }
     #achievements{
-        padding-right: 9%;
+        padding-right: 4%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: medium;
         white-space: wrap;
-        margin-top: 4%;
+        margin-top: 7%;
     
     }
     #password{
-        padding-right: 9%;
+        padding-right: 4%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: medium;
         white-space: wrap;
-        margin-top: 3%;
+        margin-top: 7%;
     }
     #gmail{
-        padding-right: 9%;
+        padding-right: 4%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: medium;
         white-space: wrap;
-        margin-top: 3%;
+        margin-top: 7%;
     }  
-    
-    .buttons{
-        margin-left: 10%;
-        
-    }
     #signin{
         background-color: #22E6D4;
         padding-right: 2%;
@@ -155,7 +150,7 @@ body{
         padding-bottom: 1%;
         font-size: medium;
         white-space: wrap;
-        margin-top: 3%; 
+        margin-top: 5%; 
        margin-left:6px;
        border-radius: 20%;
     }
@@ -199,7 +194,7 @@ body{
         display: inline-flex;
     }
     #user{
-        padding-right: 6%;
+        padding-right: 4%;
         padding-top: 5%;
         padding-bottom: 1%;
         font-size: medium;
@@ -209,7 +204,7 @@ body{
     
     }
     #achievements{
-        padding-right: 6%;
+        padding-right: 4%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: medium;
@@ -218,7 +213,7 @@ body{
     
     }
     #password{
-        padding-right: 6%;
+        padding-right: 4%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size:medium;
@@ -226,18 +221,13 @@ body{
         margin-top: 3%;
     }
     #gmail{
-        padding-right: 6%;
+        padding-right: 4%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: medium;
         white-space: wrap;
         margin-top: 3%;
     }  
-    
-    .buttons{
-        margin-left: 10%;
-        
-    }
     #signin{
         background-color: #22E6D4;
         padding-right: 5%;
@@ -289,7 +279,7 @@ body{
         display: inline-flex;
     }
     #user{
-        padding-right: 9%;
+        padding-right: 5%;
         padding-top: 3%;
         padding-bottom: 1%;
         font-size: large;
@@ -299,7 +289,7 @@ body{
     
     }
     #achievements{
-        padding-right: 9%;
+        padding-right: 5%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: large;
@@ -308,7 +298,7 @@ body{
     
     }
     #password{
-        padding-right: 9%;
+        padding-right: 5%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: large;
@@ -316,7 +306,7 @@ body{
         margin-top: 3%;
     }
     #gmail{
-        padding-right: 8%;
+        padding-right: 5%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: large;
@@ -374,7 +364,7 @@ body{
         
     }
     #user{
-        padding-right: 9%;
+        padding-right: 5%;
         padding-top: 3%;
         padding-bottom: 1%;
         font-size: larger;
@@ -384,7 +374,7 @@ body{
     
     }
     #achievements{
-        padding-right: 9%;
+        padding-right: 5%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
@@ -393,7 +383,7 @@ body{
     
     }
     #password{
-        padding-right: 9%;
+        padding-right: 5%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
@@ -401,7 +391,7 @@ body{
         margin-top: 3%;
     }
     #gmail{
-        padding-right: 9%;
+        padding-right: 5%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
