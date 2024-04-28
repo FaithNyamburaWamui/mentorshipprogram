@@ -54,7 +54,7 @@
 
 @media screen and (max-width: 500px){
     .landingpage{
-        display: flex;
+       flex-wrap: wrap;
         gap: 5px;
         font-size:medium;
         align-items: last baseline;
@@ -62,7 +62,7 @@
     }
     .navbar{
         list-style: none;
-        display: flex;
+       flex-wrap: wrap;
         font-size: 10px;
         gap: 8px;
         white-space: nowrap;
@@ -86,7 +86,7 @@
     }
     
     .footer{
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         width: 25%;
         gap: 1px;
         font-size: small;
@@ -95,13 +95,13 @@
         padding-right: 180%;
     }
     .icons{
-     flex-wrap: nowrap;
+     flex-wrap: wrap;
         gap: 2px;
      }
 }
 @media screen and (max-width: 820px){
     .landingpage{
-        display: flex;
+       flex-wrap: wrap;
         gap: 15px;
         font-size:medium;
         align-items: last baseline;
@@ -109,10 +109,10 @@
     }
     .navbar{
         list-style: none;
-        display: flex;
+        flex-wrap: wrap;
         font-size: 14px;
         gap: 10px;
-        white-space: nowrap;
+        white-space: wrap;
        
     
     }
@@ -133,7 +133,7 @@
     }
     
     .footer{
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         width: 25%;
         gap: 1px;
         font-size: small;
@@ -142,21 +142,21 @@
         padding-right: 20%;
     }
     .icons{
-     flex-wrap: nowrap;
+     flex-wrap: wrap;
         gap: 2px;
      }
 }
 @media screen and (max-width: 1000px){
     .landingpage{
-        display: flex;
+      flex-wrap: wrap;
         gap: 15px;
-        font-size:x-large;
+        font-size:large;
         align-items: last baseline;
         
     }
     .navbar{
         list-style: none;
-        display: flex;
+     flex-wrap: wrap;
         font-size: 24px;
         gap: 50px;
         white-space: nowrap;
@@ -181,7 +181,7 @@
     }
     
     .footer{
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         width: 25%;
         gap: 80px;
         font-size: large;
@@ -190,24 +190,24 @@
         padding-right: 65%;
     }
     .icons{
-     flex-wrap: nowrap;
+     flex-wrap: wrap;
         gap: 12px;
      }
 }
 @media screen and (max-width: 1280px){
     .landingpage{
-        display: flex;
+      flex-wrap: wrap;
         gap: 15px;
-        font-size:x-large;
+        font-size:large;
         align-items: last baseline;
         
     }
     .navbar{
         list-style: none;
-        display: flex;
+     flex-wrap: wrap;
         font-size: 24px;
         gap: 50px;
-        white-space: nowrap;
+        white-space: wrap;
         font-size: larger;
        
     
@@ -229,7 +229,7 @@
     }
     
     .footer{
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         width: 25%;
         gap: 80px;
         font-size: large;
@@ -238,7 +238,7 @@
         padding-right: 65%;
     }
     .icons{
-     flex-wrap: nowrap;
+     flex-wrap: wrap;
         gap: 12px;
      }
 }

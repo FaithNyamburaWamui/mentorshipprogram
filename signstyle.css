@@ -112,7 +112,7 @@ body{
         padding-top: 3%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
         
     
@@ -122,7 +122,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 4%;
     
     }
@@ -131,7 +131,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
     }
     #gmail{
@@ -139,7 +139,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
     }  
     
@@ -154,7 +154,7 @@ body{
         padding-top: 10%;
         padding-bottom: 1%;
         font-size: large;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%; 
        margin-left:6px;
        border-radius: 20%;
@@ -163,7 +163,7 @@ body{
         flex-wrap: wrap;
         width: 40%;
         gap: 10px;
-        white-space: nowrap;
+        white-space: wrap;
         font-size: x-large;
         margin-top: 50px;
         background-color:#22E6D4;
@@ -203,7 +203,7 @@ body{
         padding-top: 3%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
         
     
@@ -213,7 +213,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 4%;
     
     }
@@ -222,7 +222,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
     }
     #gmail{
@@ -230,7 +230,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
     }  
     
@@ -245,7 +245,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: large;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%; 
        margin-left:6px;
        border-radius: 20%;
@@ -254,7 +254,7 @@ body{
         flex-wrap: wrap;
         width: 20%;
         gap: 10px;
-        white-space: nowrap;
+        white-space: wrap;
         font-size: large;
         margin-top: 50px;
         background-color:#22E6D4;
@@ -293,7 +293,7 @@ body{
         padding-top: 3%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
         
     
@@ -303,7 +303,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 4%;
     
     }
@@ -312,7 +312,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
     }
     #gmail{
@@ -320,7 +320,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
     }  
     
@@ -335,7 +335,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: large;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%; 
        margin-left:16px;
        border-radius: 20%;
@@ -344,7 +344,7 @@ body{
         flex-wrap: wrap;
         width: 40%;
         gap: 10px;
-        white-space: nowrap;
+        white-space: wrap;
         font-size: x-large;
         margin-top: 50px;
         background-color:#22E6D4;
@@ -378,7 +378,7 @@ body{
         padding-top: 3%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
         
     
@@ -388,7 +388,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 4%;
     
     }
@@ -397,7 +397,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
     }
     #gmail{
@@ -405,7 +405,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
     }  
     
@@ -420,7 +420,7 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: large;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%; 
        margin-left:16px;
        border-radius: 20%;
@@ -429,7 +429,7 @@ body{
         flex-wrap: wrap;
         width: 40%;
         gap: 10px;
-        white-space: nowrap;
+        white-space: wrap;
         font-size: large;
         margin-top: 50px;
         background-color:#22E6D4;
@@ -464,7 +464,7 @@ body{
         padding-top: 2%;
         padding-bottom: 2%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
         
     
@@ -474,7 +474,7 @@ body{
         padding-top: 2%;
         padding-bottom: 2%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 4%;
     
     }
@@ -483,7 +483,7 @@ body{
         padding-top: 2%;
         padding-bottom: 2%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
     }
     #gmail{
@@ -491,7 +491,7 @@ body{
         padding-top: 2%;
         padding-bottom: 2%;
         font-size: larger;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%;
     }  
     
@@ -506,7 +506,7 @@ body{
         padding-top: 2%;
         padding-bottom: 2%;
         font-size: large;
-        white-space: nowrap;
+        white-space: wrap;
         margin-top: 3%; 
        margin-left:16px;
        border-radius: 20%;
@@ -515,7 +515,7 @@ body{
         flex-wrap: wrap;
         width: 40%;
         gap: 10px;
-        white-space: nowrap;
+        white-space: wrap;
         font-size: x-large;
         margin-top: 50px;
         background-color:#22E6D4;

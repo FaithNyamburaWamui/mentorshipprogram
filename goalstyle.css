@@ -60,7 +60,7 @@
 .icons{
     display: flex;
     align-items:flex-end;
-    gap: 30px;
+    gap: 300px;
  }
 
  @media screen and (max-width: 500px){
@@ -69,7 +69,7 @@
         flex-wrap: wrap;
         font-size: large;
         gap:10px;
-        white-space: nowrap;
+        white-space: wrap;
     }
     .navbar a{
         text-decoration: none;
@@ -80,7 +80,7 @@
         flex-wrap: wrap;
         gap: 20px;
         width:90%;
-        white-space: nowrap;
+        white-space: wrap;
         padding-left: 9%;
         
     }
@@ -90,7 +90,7 @@
     }
     #header{
        text-align: center;
-       font-size: large;
+       font-size: medium;
     }
     
     #goal{
@@ -99,7 +99,7 @@
       height: 60%;
      align-self:normal;
      text-align: center;
-     font-size: xx-large;
+     font-size: medium;
      color: red;
      border-radius: 20%;
      margin-top: 4%;
@@ -114,8 +114,8 @@
     .footer{
         flex-wrap: wrap;
         width: 40%;
-        gap: 300px;
-        white-space: nowrap;
+        gap: 30px;
+        white-space: wrap;
         font-size: large;
         margin-top: 88px;
         background-color:#22E6D4;
@@ -124,7 +124,7 @@
        align-items:flex-end;
     }
     .icons{
-        display: flex;
+       flex-wrap: wrap;
         align-items:flex-end;
         gap: 30px;
      }
@@ -134,10 +134,10 @@
  @media screen and (max-width: 720px){
     .navbar{
         list-style: none;
-        display: flex;
+       flex-wrap: wrap;
         font-size: large;
         gap: 40px;
-        white-space: nowrap;
+        white-space: wrap;
     }
     .navbar a{
         text-decoration: none;
@@ -145,10 +145,10 @@
     }
     
     .landingpage{
-        display: flex;
+      flex-wrap: wrap;
         gap: 20px;
         width:70%;
-        white-space: nowrap;
+        white-space: wrap;
         padding-left: 9%;
         
     }
@@ -167,7 +167,7 @@
       height: 60%;
      align-self:normal;
      text-align: center;
-     font-size: xx-large;
+     font-size: large;
      color: red;
      border-radius: 20%;
      margin-top: 4%;
@@ -180,10 +180,10 @@
         font-size: medium;
     }
     .footer{
-        display: flex;
+     
         width: 40%;
         gap: 30px;
-        white-space: nowrap;
+        white-space: wrap;
         font-size: large;
         margin-top: 88px;
         background-color:#22E6D4;
@@ -192,7 +192,7 @@
        align-items:flex-end;
     }
     .icons{
-        display: flex;
+       flex-wrap: wrap;
         align-items:flex-end;
         gap: 30px;
      }
@@ -213,10 +213,10 @@
     }
     
     .landingpage{
-        display: flex;
+       flex-wrap: wrap;
         gap: 20px;
         width:50%;
-        white-space: nowrap;
+        white-space: wrap;
         padding-left: 3%;
         
     }
@@ -235,7 +235,7 @@
       height: 60%;
      align-self:normal;
      text-align: center;
-     font-size: xx-large;
+     font-size: large;
      color: red;
      border-radius: 20%;
      margin-top: 4%;
@@ -251,7 +251,7 @@
        flex-wrap: wrap;
         width: 40%;
         gap: 30px;
-        white-space: nowrap;
+        white-space: wrap;
         font-size: large;
         margin-top: 88px;
         background-color:#22E6D4;
@@ -260,7 +260,7 @@
        align-items:flex-end;
     }
     .icons{
-        display: flex;
+      flex-wrap: wrap;
         align-items:flex-end;
         gap: 30px;
      }
@@ -270,10 +270,10 @@
  @media screen and (max-width: 1160px){
     .navbar{
         list-style: none;
-        display: flex;
+        flex-wrap: wrap;
         font-size: large;
         gap: 90px;
-        white-space: nowrap;
+        white-space: wrap;
     }
     .navbar a{
         text-decoration: none;
@@ -281,10 +281,10 @@
     }
     
     .landingpage{
-        display: flex;
+      flex-wrap: wrap;
         gap: 200px;
         width:70%;
-        white-space: nowrap;
+        white-space: wrap;
         padding-left: 9%;
         
     }
@@ -303,7 +303,7 @@
       height: 60%;
      align-self:normal;
      text-align: center;
-     font-size: xx-large;
+     font-size: large;
      color: red;
      border-radius: 20%;
      margin-top: 4%;
@@ -316,10 +316,10 @@
         font-size: medium;
     }
     .footer{
-        display: flex;
+        flex-wrap: wrap;
         width: 40%;
         gap: 300px;
-        white-space: nowrap;
+        white-space: wrap;
         font-size: large;
         margin-top: 88px;
         background-color:#22E6D4;
@@ -328,7 +328,7 @@
        align-items:flex-end;
     }
     .icons{
-        display: flex;
+      flex-wrap: wrap;
         align-items:flex-end;
         gap: 30px;
      }
@@ -338,10 +338,10 @@
  @media screen and (max-width: 1368px){
     .navbar{
         list-style: none;
-        display: flex;
+       flex-wrap: wrap;
         font-size: large;
         gap: 80px;
-        white-space: nowrap;
+        white-space: wrap;
     }
     .navbar a{
         text-decoration: none;
@@ -349,10 +349,10 @@
     }
     
     .landingpage{
-        display: flex;
+     flex-wrap: wrap;
         gap: 40px;
         width:70%;
-        white-space: nowrap;
+        white-space: wrap;
         padding-left: 9%;
         
     }
@@ -371,7 +371,7 @@
       height: 60%;
      align-self:normal;
      text-align: center;
-     font-size: xx-large;
+     font-size: large;
      color: red;
      border-radius: 20%;
      margin-top: 4%;
@@ -384,10 +384,10 @@
         font-size: medium;
     }
     .footer{
-        display: flex;
+       flex-wrap: wrap;
         width: 40%;
         gap: 50px;
-        white-space: nowrap;
+        white-space: wrap;
         font-size: large;
         margin-top: 88px;
         background-color:#22E6D4;
