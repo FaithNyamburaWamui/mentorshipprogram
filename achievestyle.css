@@ -1,48 +1,350 @@
 .navbar{
     list-style: none;
     display: flex;
-    font-size: x-large;
-    gap: 150px;
+    font-size: large;
+    gap: 220px;
     white-space: nowrap;
 }
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
 #logo{
-    width:250px ;
-    height: 150px;
+    width:200px ;
+    height: 100px;
 }
 #heading{
-    font-size: x-large;
+    font-size: large;
     text-align: center;
 }
 .landingpage{
-    font-size: 70px;
-    color: orangered;
+    font-size: 33px;
     display: flex;
-    gap: 400px;
+    gap: 300px;
+    padding-left: 15%;
+ }
  
-
-}
 #landingpage{
     color: black;
-    font-size: large;
-    margin-top: 10%;
-    border: 3px solid;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-bottom: 10%;
+    font-size: medium;
+    border: 2px solid;
+    padding-left: 6%;
+    padding-right: 6%;
     border-radius: 20%;
     white-space: nowrap;
-    color: red;
+    color:black;
 }
 .footer{
     display: flex;
-    width: 50%;
-    gap: 650px;
+    width: 40%;
+    gap: 300px;
     white-space: nowrap;
-    font-size: larger;
-    margin-top: 5%;
+    font-size: large;
+    margin-top: 88px;
     background-color:#22E6D4;
-    padding-right: 40%;
+    padding-right: 50%;
     padding-left: 10%;
-    padding-top: 1%;
+   align-items:flex-end;
+}
+.icons{
+    display: flex;
+    align-items:flex-end;
+    gap: 30px;
+ }
+#input{
+    padding-bottom: 20%;
+}
+@media screen and (max-width: 500px){
+    .navbar{
+        list-style: none;
+        display: inline;
+        font-size: medium;
+        gap: 20px;
+        white-space: nowrap;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: black;
+    }
+    #logo{
+        width:30px ;
+        height: 20px;
+    }
+    #heading{
+        font-size: large;
+        text-align: center;
+    }
+    .landingpage{
+        font-size: small;
+        display: flex;
+        gap: 30px;
+        padding-left: 15%;
+     }
+     
+    #landingpage{
+        color: black;
+        font-size: medium;
+        border: 2px solid;
+        padding-left: 6%;
+        padding-right: 6%;
+        border-radius: 20%;
+        white-space: nowrap;
+        color:black;
+    }
+    .footer{
+        display:inline-flex;
+        width: 40%;
+        gap: 10px;
+        white-space: nowrap;
+        font-size: large;
+        margin-top: 88px;
+        background-color:#22E6D4;
+        padding-right: 20%;
+        padding-left: 1%;
+       align-items:flex-end;
+    }
+    .icons{
+        display: flex;
+        align-items:flex-end;
+        gap: 30px;
+     }
+    #input{
+        padding-bottom: 20%;
+    } 
+}
 
+@media screen and (max-width: 720px){
+    .navbar{
+        list-style: none;
+        display: flex;
+        font-size: large;
+        gap: 20px;
+        white-space: nowrap;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: black;
+    }
+    #logo{
+        width:20px ;
+        height: 10px;
+    }
+    #heading{
+        font-size: large;
+        text-align: center;
+    }
+    .landingpage{
+        font-size: medium;
+        display: flex;
+        gap: 30px;
+        padding-left: 15%;
+     }
+     
+    #landingpage{
+        color: black;
+        font-size: medium;
+        border: 2px solid;
+        padding-left: 6%;
+        padding-right: 6%;
+        border-radius: 20%;
+        white-space: nowrap;
+        color:black;
+    }
+    .footer{
+        display: flex;
+        width: 40%;
+        gap: 30px;
+        white-space: nowrap;
+        font-size: large;
+        margin-top: 88px;
+        background-color:#22E6D4;
+        padding-right: 50%;
+        padding-left: 10%;
+       align-items:flex-end;
+    }
+    .icons{
+        display: flex;
+        align-items:flex-end;
+        gap: 30px;
+     }
+    #input{
+        padding-bottom: 20%;
+    } 
+}
+
+@media screen and (max-width: 940px){
+    .navbar{
+        list-style: none;
+        display: flex;
+        font-size: large;
+        gap: 20px;
+        white-space: nowrap;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: black;
+    }
+    #logo{
+        width:20px ;
+        height: 10px;
+    }
+    #heading{
+        font-size: large;
+        text-align: center;
+    }
+    .landingpage{
+        font-size: 33px;
+        display: flex;
+        gap: 30px;
+        padding-left: 15%;
+     }
+     
+    #landingpage{
+        color: black;
+        font-size: medium;
+        border: 2px solid;
+        padding-left: 6%;
+        padding-right: 6%;
+        border-radius: 20%;
+        white-space: nowrap;
+        color:black;
+    }
+    .footer{
+        display: flex;
+        width: 40%;
+        gap: 30px;
+        white-space: nowrap;
+        font-size: large;
+        margin-top: 88px;
+        background-color:#22E6D4;
+        padding-right: 50%;
+        padding-left: 10%;
+       align-items:flex-end;
+    }
+    .icons{
+        display: flex;
+        align-items:flex-end;
+        gap: 30px;
+     }
+    #input{
+        padding-bottom: 20%;
+    } 
+}
+
+@media screen and (max-width: 1160px){
+    .navbar{
+        list-style: none;
+        display: flex;
+        font-size: large;
+        gap: 20px;
+        white-space: nowrap;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: black;
+    }
+    #logo{
+        width:20px ;
+        height: 10px;
+    }
+    #heading{
+        font-size: large;
+        text-align: center;
+    }
+    .landingpage{
+        font-size: 33px;
+        display: flex;
+        gap: 30px;
+        padding-left: 15%;
+     }
+     
+    #landingpage{
+        color: black;
+        font-size: medium;
+        border: 2px solid;
+        padding-left: 6%;
+        padding-right: 6%;
+        border-radius: 20%;
+        white-space: nowrap;
+        color:black;
+    }
+    .footer{
+        display: flex;
+        width: 40%;
+        gap: 30px;
+        white-space: nowrap;
+        font-size: large;
+        margin-top: 88px;
+        background-color:#22E6D4;
+        padding-right: 50%;
+        padding-left: 10%;
+       align-items:flex-end;
+    }
+    .icons{
+        display: flex;
+        align-items:flex-end;
+        gap: 30px;
+     }
+    #input{
+        padding-bottom: 20%;
+    } 
+}
+
+@media screen and (max-width: 1280px){
+    .navbar{
+        list-style: none;
+        display: flex;
+        font-size: large;
+        gap: 70px;
+        white-space: nowrap;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: black;
+    }
+    #logo{
+        width:90px ;
+        height: 80px;
+    }
+    #heading{
+        font-size: large;
+        text-align: center;
+    }
+    .landingpage{
+        font-size: 33px;
+        display: flex;
+        gap: 30px;
+        padding-left: 15%;
+     }
+     
+    #landingpage{
+        color: black;
+        font-size: medium;
+        border: 2px solid;
+        padding-left: 6%;
+        padding-right: 6%;
+        border-radius: 20%;
+        white-space: nowrap;
+        color:black;
+    }
+    .footer{
+        display: flex;
+        width: 40%;
+        gap: 30px;
+        white-space: nowrap;
+        font-size: large;
+        margin-top: 88px;
+        background-color:#22E6D4;
+        padding-right: 50%;
+        padding-left: 10%;
+       align-items:flex-end;
+    }
+    .icons{
+        display: flex;
+        align-items:flex-end;
+        gap: 30px;
+     }
+    #input{
+        padding-bottom: 20%;
+    } 
 }

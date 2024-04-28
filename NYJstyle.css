@@ -1,0 +1,18 @@
+body{
+    background-color:silver;
+}
+
+.container{
+    display: flex;
+    gap: 200px;
+    font-size: large;
+    
+}
+#image{
+    width: 600px;
+    height: 500px;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
