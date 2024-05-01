@@ -14,6 +14,8 @@
 #button{
     text-decoration:none;
     color: black;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 #todo{
     padding-left: 40%;
@@ -35,13 +37,37 @@
     width:200px ;
     height: 100px;
 }
+.view{
+    display: flex;
+    gap: 10px;
+    align-content:last baseline;
+}
+.practice{
+    display: flex;
+    margin-top: -17%;
+    gap: 10px;
+    
+}
+.design{
+    display: flex;
+    gap: 10px;
+    margin-top: -30%;
+}
+.work{
+    display: flex;
+    gap: 10px;
+    margin-top: -30%;
+}
+
 #landingpage{
     width: 50%;
     border:3px solid;
     padding-right: 60%;
     margin-left: 60%;
-    font-size:x-large;
-    padding-bottom: 35%;
+    font-size:30px;
+    padding-bottom: 5%;
+    align-items: center;
+    margin-top: 10%;
     
    
 }
@@ -53,7 +79,6 @@
     display: flex;
     margin-left: 50%;
     font-size: large;
-    padding-bottom: 90%;
 }
 .heading{
     width: 40px; 
@@ -64,7 +89,6 @@
     color:black;
     font-size: large;
     margin-left: 15px;
-    padding-bottom: 1%;
     
 }
 #heading{
@@ -82,7 +106,7 @@
     gap: 300px;
     white-space: nowrap;
     font-size: large;
-    margin-top: 98px;
+    margin-top: 130px;
     background-color:#22E6D4;
     padding-right: 50%;
     padding-left: 10%;
@@ -95,15 +119,116 @@
  }
 
  @media screen and (max-width: 500px){
-    body{
-        margin: 10px;
-    }
     .navbar{
         list-style: none;
         flex-wrap: wrap;
-        font-size: smaller;
+        font-size: small;
+        gap: 20px;
         white-space: nowrap;
         width:20px ;
+       
+    }
+    .container{
+        margin: -15%;
+        font-size: small;
+    }
+    .navbar a{
+        text-decoration: none;
+        color: black;
+    }
+    #button{
+        text-decoration:none;
+        color: black;
+    }
+    #todo{
+        padding-bottom: 10%;
+        display: flex;
+        width: 30px;
+        height: 40px;
+        font-size: small;
+        
+    }
+    .landingpage{
+        width: 20%;
+        flex-wrap: wrap;
+        white-space: nowrap;
+        gap:30px;
+        
+    }
+    
+    #logo{
+        width:190px ;
+        height: 180px;
+    }
+    #landingpage{
+        width: 50%;
+        border:1px solid;
+        padding-right: 60%;
+        margin-left: 60%;
+        font-size:medium;
+        padding-bottom: 35%;
+        
+       
+    }
+    .landing{
+        width: 50%;
+        border:2px solid;
+        padding-right: 10%;
+        border-radius: 4%;
+        flex-wrap: wrap;
+        margin-left: 50%;
+        font-size:medium;
+        padding-bottom: 30%;
+    }
+    .heading{
+        width: 40px; 
+        height: 40px;
+        padding-top: 2%;
+    }
+    .todo{
+        color:black;
+        font-size: medium;
+        margin-left: 15px;
+        padding-bottom: 1%;
+        flex-wrap: wrap;
+        
+    }
+    #heading{
+        flex-wrap: wrap;
+        font-size: medium;
+        gap: 10px;
+        white-space: nowrap;
+        margin-bottom: -40px;
+        margin-left: -180px;
+    }
+    
+    .footer{
+        flex-wrap: wrap;
+        width: 40%;
+        gap: 30px;
+        white-space: nowrap;
+        font-size: medium;
+        margin-top: 38px;
+        background-color:#22E6D4;
+        padding-right: 0%;
+        padding-left: 10%;
+       align-items:flex-end;
+    }
+    .icons{
+        display: flex;
+        align-items:flex-end;
+        gap: 10px;
+     }
+    
+ }
+ @media screen and (max-width: 720px){
+    .navbar{
+        list-style: none;
+        flex-wrap: wrap;
+        font-size: large;
+        gap: 200px;
+        white-space: nowrap;
+        width:200px ;
        
     }
     .navbar a{
@@ -117,7 +242,8 @@
     #todo{
         padding-left: 40%;
         padding-bottom: 10%;
-        display: inline-flex;
+        display: flex;
+        width: 30px;
         height: 40px;
         align-items: center;
     }
@@ -131,14 +257,14 @@
     
     #logo{
         width:20px ;
-        height: 20px;
+        height: 10px;
     }
     #landingpage{
         width: 50%;
-        border:1px solid;
+        border:2px solid;
         padding-right: 60%;
         margin-left: 60%;
-        font-size:large;
+        font-size:medium;
         padding-bottom: 35%;
         
        
@@ -150,17 +276,17 @@
         border-radius: 4%;
         flex-wrap: wrap;
         margin-left: 50%;
-        font-size: large;
-        padding-bottom: 90%;
+        font-size: medium;
+        padding-bottom: 40%;
     }
     .heading{
         width: 40px; 
         height: 40px;
-        
+        padding-top: 2%;
     }
     .todo{
         color:black;
-        font-size:medium;
+        font-size: medium;
         margin-left: 15px;
         padding-bottom: 1%;
         
@@ -170,37 +296,32 @@
         font-size: medium;
         gap: 10px;
         white-space: nowrap;
-        padding-left: 80px;
-        text-align: center;
     }
     
     .footer{
         flex-wrap: wrap;
         width: 40%;
-        gap: 30px;
+        gap: 300px;
         white-space: nowrap;
         font-size: large;
-        margin-top: 28px;
+        margin-top: 48px;
         background-color:#22E6D4;
         padding-right: 50%;
         padding-left: 10%;
        align-items:flex-end;
     }
     .icons{
-        display: inline-flex;
+        display: flex;
         align-items:flex-end;
         gap: 30px;
      }
     
  }
- @media screen and (max-width: 720px){
-    body{
-        margin: 10px;
-    }
+ @media screen and (max-width: 940px){
     .navbar{
         list-style: none;
-        display: inline-flex;
-        font-size: smaller;
+        flex-wrap: wrap;
+        font-size:medium;
         gap: 20px;
         white-space: nowrap;
         width:20px ;
@@ -217,13 +338,110 @@
     #todo{
         padding-left: 40%;
         padding-bottom: 10%;
-        display: inline-flex;
+        display: flex;
+        width: 20px;
         height: 40px;
         align-items: center;
     }
     .landingpage{
         width: 20%;
-        display: inline-flex;
+        display: flex;
+        white-space: nowrap;
+        gap:30px;
+        
+    }
+    
+    #logo{
+        width:60px ;
+        height: 50px;
+    }
+    #landingpage{
+        width: 50%;
+        border:2px solid;
+        padding-right: 60%;
+        margin-left: 60%;
+        font-size:medium;
+        padding-bottom: 35%;
+        
+       
+    }
+    .landing{
+        width: 40%;
+        border:2px solid;
+        padding-right: 60%;
+        border-radius: 4%;
+        flex-wrap: wrap;
+        margin-left: 50%;
+        font-size: medium;
+        padding-bottom: 50%;
+    }
+    .heading{
+        width: 40px; 
+        height: 40px;
+        padding-top: 2%;
+    }
+    .todo{
+        color:black;
+        font-size: medium;
+        margin-left: 15px;
+        padding-bottom: 1%;
+        
+    }
+    #heading{
+    flex-wrap: wrap;
+        font-size: medium;
+        gap: 10px;
+        white-space: nowrap;
+       
+    }
+    
+    .footer{
+        flex-wrap: wrap;
+        width: 40%;
+        gap: 30px;
+        white-space: nowrap;
+        font-size: medium;
+        margin-top: 68px;
+        background-color:#22E6D4;
+        padding-right: 50%;
+        padding-left: 10%;
+       align-items:flex-end;
+    }
+    .icons{
+        display: flex;
+        align-items:flex-end;
+        gap: 30px;
+     }
+ }
+ @media screen and (max-width: 1160px){
+    .navbar{
+        list-style: none;
+        display:inline-flex;
+        font-size: medium;
+        gap: 20px;
+        white-space: nowrap;
+        width:20px ;
+       
+    }
+    .navbar a{
+        text-decoration: none;
+        color: black;
+    }
+    #button{
+        text-decoration:none;
+        color: black;
+    }
+    #todo{
+        padding-left: 40%;
+        padding-bottom: 10%;
+        display: flex;
+        width: 40px;
+        height: 40px;
+        align-items: center;
+    }
+    .landingpage{
+        width: 20%;
+        flex-wrap: wrap;
         white-space: nowrap;
         gap:30px;
         
@@ -231,112 +449,14 @@
     
     #logo{
         width:20px ;
-        height: 100px;
+        height: 10px;
     }
     #landingpage{
         width: 50%;
-        border:3px solid;
+        border:2px solid;
         padding-right: 60%;
         margin-left: 60%;
-        font-size:x-large;
-        padding-bottom: 35%;
-        
-       
-    }
-    .landing{
-        width: 50%;
-        border:4px solid;
-        padding-right: 60%;
-        border-radius: 4%;
-        display: inline-flex;
-        margin-left: 50%;
-        font-size: large;
-        padding-bottom: 90%;
-    }
-    .heading{
-        width: 40px; 
-        height: 40px;
-        padding-top: 2%;
-    }
-    .todo{
-        color:black;
         font-size:medium;
-        margin-left: 15px;
-        padding-bottom: 1%;
-        
-    }
-    #heading{
-        display: inline-flex;
-        font-size: medium;
-        gap: 10px;
-        white-space: nowrap;
-        padding-left: 80px;
-        text-align: center;
-    }
-    
-    .footer{
-        display: inline-flex;
-        width: 40%;
-        gap: 30px;
-        white-space: nowrap;
-        font-size: large;
-        margin-top: 48px;
-        background-color:#22E6D4;
-        padding-right: 50%;
-        padding-left: 10%;
-       align-items:flex-end;
-    }
-    .icons{
-        display: inline-flex;
-        align-items:flex-end;
-        gap: 30px;
-     }
-    
- }
- @media screen and (max-width: 940px){
-    .navbar{
-        list-style: none;
-        display: flex;
-        font-size: large;
-        gap: 200px;
-        white-space: nowrap;
-        width:200px ;
-       
-    }
-    .navbar a{
-        text-decoration: none;
-        color: black;
-    }
-    #button{
-        text-decoration:none;
-        color: black;
-    }
-    #todo{
-        padding-left: 40%;
-        padding-bottom: 10%;
-        display: flex;
-        width: 120px;
-        height: 40px;
-        align-items: center;
-    }
-    .landingpage{
-        width: 20%;
-        display: flex;
-        white-space: nowrap;
-        gap:300px;
-        
-    }
-    
-    #logo{
-        width:200px ;
-        height: 100px;
-    }
-    #landingpage{
-        width: 50%;
-        border:3px solid;
-        padding-right: 60%;
-        margin-left: 60%;
-        font-size:x-large;
         padding-bottom: 35%;
         
        
@@ -346,10 +466,10 @@
         border:4px solid;
         padding-right: 60%;
         border-radius: 4%;
-        display: flex;
+        flex-wrap: wrap;
         margin-left: 50%;
-        font-size: large;
-        padding-bottom: 90%;
+        font-size: medium;
+        padding-bottom: 70%;
     }
     .heading{
         width: 40px; 
@@ -358,27 +478,25 @@
     }
     .todo{
         color:black;
-        font-size: large;
+        font-size: medium;
         margin-left: 15px;
         padding-bottom: 1%;
         
     }
     #heading{
-        display: flex;
+        flex-wrap: wrap;
         font-size: medium;
         gap: 10px;
         white-space: nowrap;
-        padding-left: 800px;
-        text-align: center;
     }
     
     .footer{
-        display: flex;
+      flex-wrap: wrap;
         width: 40%;
-        gap: 300px;
+        gap: 30px;
         white-space: nowrap;
         font-size: large;
-        margin-top: 98px;
+        margin-top: 68px;
         background-color:#22E6D4;
         padding-right: 50%;
         padding-left: 10%;
@@ -387,116 +505,18 @@
     .icons{
         display: flex;
         align-items:flex-end;
-        gap: 30px;
-     }
-    
- }
- @media screen and (max-width: 1160px){
-    .navbar{
-        list-style: none;
-        display: flex;
-        font-size: large;
-        gap: 200px;
-        white-space: nowrap;
-        width:200px ;
-       
-    }
-    .navbar a{
-        text-decoration: none;
-        color: black;
-    }
-    #button{
-        text-decoration:none;
-        color: black;
-    }
-    #todo{
-        padding-left: 40%;
-        padding-bottom: 10%;
-        display: flex;
-        width: 120px;
-        height: 40px;
-        align-items: center;
-    }
-    .landingpage{
-        width: 20%;
-        display: flex;
-        white-space: nowrap;
-        gap:300px;
-        
-    }
-    
-    #logo{
-        width:200px ;
-        height: 100px;
-    }
-    #landingpage{
-        width: 50%;
-        border:3px solid;
-        padding-right: 60%;
-        margin-left: 60%;
-        font-size:x-large;
-        padding-bottom: 35%;
-        
-       
-    }
-    .landing{
-        width: 50%;
-        border:4px solid;
-        padding-right: 60%;
-        border-radius: 4%;
-        display: flex;
-        margin-left: 50%;
-        font-size: large;
-        padding-bottom: 90%;
-    }
-    .heading{
-        width: 40px; 
-        height: 40px;
-        padding-top: 2%;
-    }
-    .todo{
-        color:black;
-        font-size: large;
-        margin-left: 15px;
-        padding-bottom: 1%;
-        
-    }
-    #heading{
-        display: flex;
-        font-size: medium;
         gap: 10px;
-        white-space: nowrap;
-        padding-left: 800px;
-        text-align: center;
-    }
-    
-    .footer{
-        display: flex;
-        width: 40%;
-        gap: 300px;
-        white-space: nowrap;
-        font-size: large;
-        margin-top: 98px;
-        background-color:#22E6D4;
-        padding-right: 50%;
-        padding-left: 10%;
-       align-items:flex-end;
-    }
-    .icons{
-        display: flex;
-        align-items:flex-end;
-        gap: 30px;
      }
     
  }
  @media screen and (max-width: 1368px){
     .navbar{
         list-style: none;
-        display: flex;
+       flex-wrap: wrap;
         font-size: large;
-        gap: 200px;
+        gap: 20px;
         white-space: nowrap;
-        width:200px ;
+        width:50px ;
        
     }
     .navbar a{
@@ -511,38 +531,38 @@
         padding-left: 40%;
         padding-bottom: 10%;
         display: flex;
-        width: 120px;
+        width: 60px;
         height: 40px;
-        align-items: center;
+    
     }
     .landingpage{
         width: 20%;
-        display: flex;
+        flex-wrap: wrap;
         white-space: nowrap;
-        gap:300px;
+        gap:30px;
         
     }
     
     #logo{
-        width:200px ;
-        height: 100px;
+        width:20px ;
+        height: 10px;
     }
     #landingpage{
         width: 50%;
         border:3px solid;
         padding-right: 60%;
         margin-left: 60%;
-        font-size:x-large;
+        font-size:large;
         padding-bottom: 35%;
         
        
     }
     .landing{
         width: 50%;
-        border:4px solid;
+        border:2px solid;
         padding-right: 60%;
         border-radius: 4%;
-        display: flex;
+        flex-wrap: wrap;
         margin-left: 50%;
         font-size: large;
         padding-bottom: 90%;
@@ -560,18 +580,17 @@
         
     }
     #heading{
-        display: flex;
+        flex-wrap: wrap;
         font-size: medium;
         gap: 10px;
         white-space: nowrap;
-        padding-left: 800px;
         text-align: center;
     }
     
     .footer{
-        display: flex;
+       flex-wrap: wrap;
         width: 40%;
-        gap: 300px;
+        gap: 30px;
         white-space: nowrap;
         font-size: large;
         margin-top: 98px;
