@@ -75,16 +75,10 @@ padding-top: 20%;
         border-radius: 30%;
         gap: 20px;
         padding-left: 4%;
-        
+        padding-top: -2%;
     
     }
     .details{
-    white-space: nowrap;
-    font-size: small;
-    padding-top: 10%;
-    }
-    
-    #heading{
         text-align: center;
         font-size: large;
     }

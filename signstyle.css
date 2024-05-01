@@ -12,6 +12,7 @@ body{
     font-size: large;
     gap: 220px;
     white-space: nowrap;
+
 }
 #logo{
     width:200px ;
@@ -53,8 +54,12 @@ body{
     margin-top: 3%;
 }  
 
-.buttons{
+.input{
+    padding: 20px;
+    width: 70%;
     margin-left: 27%;
+    padding-top: 130px;
+
     
 }
 #signin{
@@ -69,28 +74,9 @@ body{
    margin-left:160px;
    border-radius: 20%;
 }
-.footer{
-    display: flex;
-    width: 40%;
-    gap: 300px;
-    white-space: nowrap;
-    font-size: large;
-    margin-top: 106px;
-    background-color:#22E6D4;
-    padding-right: 50%;
-    padding-left: 10%;
-   align-items:flex-end;
-}
-.icons{
-    display: flex;
-    align-items:flex-end;
-    gap: 30px;
- }
+
 
  @media screen and (max-width: 500px){
-    body{
-        box-sizing:border-box;
-    }
     .navbar a{
         text-decoration: none;
         color: black;
@@ -98,136 +84,52 @@ body{
     
     .navbar{
         list-style: none;
-        display: inline-flex;
-        gap: 20px;
         flex-wrap: wrap;
+        font-size: medium;
+        white-space: nowrap;
     }
     #logo{
         width:50px ;
         height: 40px;
-        display: inline-flex;
     }
     #user{
-        padding-right: 4%;
-        padding-top: 2%;
-        padding-bottom: 1%;
-        font-size: medium;
-        white-space: wrap;
-        margin-top: 7%;
-        
-    
-    }
-    #achievements{
-        padding-right: 4%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        font-size: medium;
-        white-space: wrap;
-        margin-top: 7%;
-    
-    }
-    #password{
-        padding-right: 4%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        font-size: medium;
-        white-space: wrap;
-        margin-top: 7%;
-    }
-    #gmail{
-        padding-right: 4%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        font-size: medium;
-        white-space: wrap;
-        margin-top: 7%;
-    }  
-    #signin{
-        background-color: #22E6D4;
-        padding-right: 2%;
-        padding-left: 2%;
-        padding-top: 10%;
-        padding-bottom: 1%;
-        font-size: medium;
-        white-space: wrap;
-        margin-top: 5%; 
-       margin-left:6px;
-       border-radius: 20%;
-    }
-    .footer{
-        flex-wrap: wrap;
-        width: 40%;
-        gap: 10px;
-        white-space: wrap;
-        font-size: large;
-        margin-top: 50px;
-        background-color:#22E6D4;
-        padding-right: 90%;
-        padding-left: 1%;
-    }
-    .icons{
-        flex-wrap: wrap;
-        align-items:flex-end;
-    
-     }
- }
-
- @media screen and (max-width: 720px){
-    body{
-        box-sizing:border-box;
-    }
-    .navbar a{
-        text-decoration: none;
-        color: black;
-    }
-    
-    .navbar{
-        list-style: none;
-        display: inline-flex;
-        gap: 20px;
-        flex-wrap: wrap;
-        font-size: medium;
-    }
-    #logo{
-        width:70px ;
-        height: 60px;
-        display: inline-flex;
-    }
-    #user{
-        padding-right: 4%;
-        padding-top: 5%;
-        padding-bottom: 1%;
-        font-size: medium;
-        white-space: wrap;
-        margin-top: 3%;
-        
-    
-    }
-    #achievements{
-        padding-right: 4%;
-        padding-top: 1%;
-        padding-bottom: 1%;
-        font-size: medium;
-        white-space: wrap;
-        margin-top: 4%;
-    
-    }
-    #password{
-        padding-right: 4%;
+        padding-right: 10%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size:medium;
-        white-space: wrap;
+        margin-top: 3%;
+        
+    
+    }
+    #achievements{
+        padding-right: 10%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size:medium;
+        margin-top: 3%;
+    
+    }
+    #password{
+        padding-right: 10%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size:medium;
         margin-top: 3%;
     }
     #gmail{
-        padding-right: 4%;
+        padding-right: 10%;
         padding-top: 1%;
         padding-bottom: 1%;
-        font-size: medium;
-        white-space: wrap;
+        font-size:medium;
         margin-top: 3%;
     }  
+    
+    .input{
+        padding: 20px;
+      width: 25%;
+      margin-left: -10%;
+     
+       }
     #signin{
         background-color: #22E6D4;
         padding-right: 5%;
@@ -235,33 +137,16 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: large;
-        white-space: wrap;
+        white-space: nowrap;
         margin-top: 3%; 
-       margin-left:6px;
+       margin-left:16px;
        border-radius: 20%;
     }
-    .footer{
-        flex-wrap: wrap;
-        width: 20%;
-        gap: 10px;
-        white-space: wrap;
-        font-size: large;
-        margin-top: 50px;
-        background-color:#22E6D4;
-        padding-right: 1%;
-        padding-left: 1%;
-    }
-    .icons{
-        flex-wrap: wrap;
-        align-items:flex-end;
-    
-     }
- }
+  
+   
+    } 
 
- @media screen and (max-width: 940px){
-    body{
-        box-sizing:border-box;
-    }
+ @media screen and (max-width: 720px){
     .navbar a{
         text-decoration: none;
         color: black;
@@ -269,55 +154,56 @@ body{
     
     .navbar{
         list-style: none;
-        display: inline-flex;
-        gap: 20px;
         flex-wrap: wrap;
+        font-size: medium;
+        gap: 22px;
+        white-space: nowrap;
     }
     #logo{
         width:50px ;
         height: 40px;
-        display: inline-flex;
     }
     #user{
-        padding-right: 5%;
-        padding-top: 3%;
+        padding-right: 15%;
+        padding-top: 1%;
         padding-bottom: 1%;
         font-size: large;
-        white-space: wrap;
+        white-space: nowrap;
         margin-top: 3%;
         
     
     }
     #achievements{
-        padding-right: 5%;
+        padding-right: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: large;
-        white-space: wrap;
-        margin-top: 4%;
+        white-space: nowrap;
+        margin-top: 3%;
     
     }
     #password{
-        padding-right: 5%;
+        padding-right: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: large;
-        white-space: wrap;
+        white-space: nowrap;
         margin-top: 3%;
     }
     #gmail{
-        padding-right: 5%;
+        padding-right: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: large;
-        white-space: wrap;
+        white-space: nowrap;
         margin-top: 3%;
     }  
-    
-    .buttons{
-        margin-left: 20%;
-        
-    }
+    .input{
+        padding: 20px;
+      width: 25%;
+      margin-left: -10%;
+     
+       }
     #signin{
         background-color: #22E6D4;
         padding-right: 5%;
@@ -325,28 +211,14 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: large;
-        white-space: wrap;
+        white-space: nowrap;
         margin-top: 3%; 
        margin-left:16px;
        border-radius: 20%;
-    }
-    .footer{
-        flex-wrap: wrap;
-        width: 40%;
-        gap: 10px;
-        white-space: wrap;
-        font-size: x-large;
-        margin-top: 50px;
-        background-color:#22E6D4;
-        padding-right: 90%;
-        padding-left: 1%;
     }
    
- }
- @media screen and (max-width: 1160px){
-    body{
-        box-sizing:border-box;
-    }
+    } 
+ @media screen and (max-width: 940px){
     .navbar a{
         text-decoration: none;
         color: black;
@@ -354,55 +226,57 @@ body{
     
     .navbar{
         list-style: none;
-        display: inline-flex;
-        gap: 80px;
         flex-wrap: wrap;
+        font-size: medium;
+        gap: 22px;
+        white-space: nowrap;
     }
     #logo{
         width:50px ;
         height: 40px;
-        
     }
     #user{
-        padding-right: 5%;
-        padding-top: 3%;
+        padding-right: 15%;
+        padding-top: 1%;
         padding-bottom: 1%;
-        font-size: larger;
-        white-space: wrap;
+        font-size: large;
+        white-space: nowrap;
         margin-top: 3%;
         
     
     }
     #achievements{
-        padding-right: 5%;
+        padding-right: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
-        font-size: larger;
-        white-space: wrap;
-        margin-top: 4%;
+        font-size: large;
+        white-space: nowrap;
+        margin-top: 3%;
     
     }
     #password{
-        padding-right: 5%;
+        padding-right: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
-        font-size: larger;
-        white-space: wrap;
+        font-size: large;
+        white-space: nowrap;
         margin-top: 3%;
     }
     #gmail{
-        padding-right: 5%;
+        padding-right: 15%;
         padding-top: 1%;
         padding-bottom: 1%;
-        font-size: larger;
-        white-space: wrap;
+        font-size: large;
+        white-space: nowrap;
         margin-top: 3%;
     }  
     
-    .buttons{
-        margin-left: 20%;
-        
-    }
+    .input{
+        padding: 20px;
+      width: 25%;
+      margin-left: -10%;
+     
+       }
     #signin{
         background-color: #22E6D4;
         padding-right: 5%;
@@ -410,23 +284,87 @@ body{
         padding-top: 1%;
         padding-bottom: 1%;
         font-size: large;
-        white-space: wrap;
+        white-space: nowrap;
         margin-top: 3%; 
        margin-left:16px;
        border-radius: 20%;
     }
-    .footer{
-        flex-wrap: wrap;
-        width: 40%;
-        gap: 10px;
-        white-space: wrap;
-        font-size: large;
-        margin-top: 50px;
-        background-color:#22E6D4;
-        padding-right: 1%;
-        padding-left: 1%;
+
+    } 
+ 
+ @media screen and (max-width: 1160px){
+    .navbar a{
+        text-decoration: none;
+        color: black;
     }
- }
+    
+    .navbar{
+        list-style: none;
+        flex-wrap: wrap;
+        font-size: medium;
+        gap: 22px;
+        white-space: nowrap;
+    }
+    #logo{
+        width:50px ;
+        height: 40px;
+    }
+    #user{
+        padding-right: 15%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size: large;
+        white-space: nowrap;
+        margin-top: 3%;
+        
+    
+    }
+    #achievements{
+        padding-right: 15%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size: large;
+        white-space: nowrap;
+        margin-top: 3%;
+    
+    }
+    #password{
+        padding-right: 15%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size: large;
+        white-space: nowrap;
+        margin-top: 3%;
+    }
+    #gmail{
+        padding-right: 15%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size: large;
+        white-space: nowrap;
+        margin-top: 3%;
+    }  
+    
+    .input{
+        padding: 20px;
+      width: 25%;
+      margin-left: -10%;
+     
+       }
+    #signin{
+        background-color: #22E6D4;
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+        font-size: large;
+        white-space: nowrap;
+        margin-top: 3%; 
+       margin-left:16px;
+       border-radius: 20%;
+    }
+   
+    } 
 
  @media screen and (max-width: 1280px){
     body{
@@ -485,10 +423,12 @@ body{
         margin-top: 3%;
     }  
     
-    .buttons{
-        margin-left: 20%;
-        
-    }
+    .input{
+        padding: 20px;
+      width: 25%;
+      margin-left: -10%;
+     
+       }
     #signin{
         background-color: #22E6D4;
         padding-right: 5%;
@@ -501,16 +441,6 @@ body{
        margin-left:16px;
        border-radius: 20%;
     }
-    .footer{
-        flex-wrap: wrap;
-        width: 40%;
-        gap: 10px;
-        white-space: wrap;
-        font-size: x-large;
-        margin-top: 50px;
-        background-color:#22E6D4;
-        padding-right: 59%;
-        padding-left: 1%;
-    }
+  
 
  }

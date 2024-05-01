@@ -54,15 +54,15 @@
 
 @media screen and (max-width: 500px){
     .landingpage{
-       flex-wrap: wrap;
-        gap: 5px;
-        font-size:medium;
-        align-items: last baseline;
+       display: inline-flex;
+        font-size:smaller;
+        
         
     }
     .navbar{
         list-style: none;
-       flex-wrap: wrap;
+       display: inline-flex;
+       font-size: small;
         font-size: 10px;
         gap: 8px;
         white-space: nowrap;
@@ -82,27 +82,25 @@
         width: 75%;
         height: 40%;
         border-radius: 30%;
+        margin-top: -90%;
+        margin-bottom: 20px;
     
     }
     
     .footer{
-        flex-wrap: wrap;
-        width: 25%;
+      display: inline-flex;
         gap: 1px;
         font-size: small;
-        margin-top: 60px;
         background-color:#22E6D4;
-        padding-right: 180%;
     }
     .icons{
-     flex-wrap: wrap;
+     display: inline-flex;
         gap: 2px;
      }
 }
 @media screen and (max-width: 820px){
     .landingpage{
        flex-wrap: wrap;
-        gap: 15px;
         font-size:medium;
         align-items: last baseline;
     
@@ -149,7 +147,6 @@
 @media screen and (max-width: 1000px){
     .landingpage{
       flex-wrap: wrap;
-        gap: 15px;
         font-size:large;
         align-items: last baseline;
         
@@ -196,9 +193,7 @@
 }
 @media screen and (max-width: 1280px){
     .landingpage{
-      flex-wrap: wrap;
-        gap: 15px;
-        font-size:large;
+        font-size:medium;
         align-items: last baseline;
         
     }
@@ -206,9 +201,9 @@
         list-style: none;
      flex-wrap: wrap;
         font-size: 24px;
-        gap: 50px;
+        gap: 40px;
         white-space: wrap;
-        font-size: larger;
+        font-size: medium;
        
     
     }
@@ -222,23 +217,21 @@
     
     }
     #image{
-        width: 60%;
-        height: 30%;
+        width: 40%;
+        height: 20%;
         border-radius: 30%;
     
     }
     
     .footer{
-        flex-wrap: wrap;
         width: 25%;
         gap: 80px;
-        font-size: large;
-        margin-top: -9px;
+        font-size: medium;
+        margin-top: 70px;
         background-color:#22E6D4;
-        padding-right: 65%;
+        padding-right: 59%;
     }
     .icons{
-     flex-wrap: wrap;
         gap: 12px;
      }
 }
